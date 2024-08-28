@@ -1,0 +1,129 @@
+@media (max-width: 992px) {
+    .navbar-nav {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    .navbar-collapse {
+        background-color: #00242C;
+        padding: 10px;
+    }
+}
+@media(max-width: 991px) {
+    .about.banner_section,
+    .product.about.banner_section,
+    .gallery.banner_section,
+    .contact.banner_section{
+       
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+        
+    
+    }
+        
+    }
+@media (max-width: 767px) {
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtittle{
+        max-width: 80%;
+    }
+    
+}
+
+@media(max-width: 590px){
+    body,html{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .features-text h3 {
+        font-size: 1rem; /* Smaller font size on smaller screens */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+@media (max-width: 768px) {
+    .col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .product-detail {
+        position: relative;
+        transform: none;
+        bottom: auto;
+        left: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .product-detail {
+        position: relative;
+        transform: none;
+        bottom: auto;
+        left: auto;
+    }
+}
+/* Desktop and larger tablets */
+@media (min-width: 768px) {
+    .gallery_section .col-sm-6 img {
+        width: calc(33.33% - 1rem); /* 3 images per row with space between */
+        margin-right: 1rem; /* Space between images */
+    }
+
+    .gallery_section .col-sm-6 img:nth-child(3n) {
+        margin-right: 0; /* Remove margin on the right for the last image in each row */
+    }
+}
+
+/* Small devices */
+@media (max-width: 767px) {
+    .gallery_section .col-sm-6 img {
+        width: 100%; /* Full width on small devices */
+        margin-right: 0; /* No margin on the right */
+    }
+}
